@@ -93,4 +93,6 @@ map <leader>l :set list!<CR> " Toggle tabs and EOL
 " Color scheme (terminal)
 set t_Co=256
 set background=dark
-colorscheme crunchbang
+let g:solarized_termcolors=256
+let g:solarized_termtrans=1
+colorscheme solarized
